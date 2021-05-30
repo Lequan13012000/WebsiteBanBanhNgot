@@ -1,0 +1,186 @@
+﻿
+@{
+    ViewBag.Title = "DetailProduct";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+}
+@using PagedList.Mvc
+<style>
+    .aside ul li {
+        padding: 10px 3px;
+        border-bottom: 1px dotted #e1e1e1;
+    }
+    .pagination {
+        display: flex;
+    }
+</style>
+<div class="container">
+    <div id="content">
+        <div class="row">
+            <div class="col-sm-9">
+
+                <div class="row">
+                    <div class="col-sm-4">
+                        <img src="~/assets/image/product/@ViewBag.pro.images" alt="" height="250px">
+                    </div>
+                    <div class="col-sm-8">
+                        <div class="single-item-body">
+                            <p class="single-item-title">@ViewBag.pro.name_pr</p>
+                            <p class="single-item-price">
+                                @if (ViewBag.pro.promotion_price != 0)
+                                {
+                                    <span class="flash-del">@ViewBag.pro.unit_price đồng</span>
+                                    <span class="flash-sale">@ViewBag.pro.promotion_price đồng</span>
+                                }
+                                else
+                                {
+                                    <span>@ViewBag.pro.unit_price đồng</span>
+                                }
+                            </p>
+                        </div>
+
+                        <div class="clearfix"></div>
+                        <div class="space20">&nbsp;</div>
+
+                        <div class="single-item-desc">
+
+                        </div>
+                        <div class="space20">&nbsp;</div>
+
+                        <p>Options:</p>
+                        <div class="single-item-options">
+                            <select class="wc-select" name="size">
+                                <option>Size</option>
+                                <option value="XS">XS</option>
+                                <option value="S">S</option>
+                                <option value="M">M</option>
+                                <option value="L">L</option>
+                                <option value="XL">XL</option>
+                            </select>
+                            <select class="wc-select" name="color">
+                                <option>Color</option>
+                                <option value="Red">Red</option>
+                                <option value="Green">Green</option>
+                                <option value="Yellow">Yellow</option>
+                                <option value="Black">Black</option>
+                                <option value="White">White</option>
+                            </select>
+                            <select class="wc-select" name="color">
+                                <option>Qty</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                            </select>
+                            <a class="add-to-cart" href="/ShoppingCart/AddtoCart/@ViewBag.pro.id"><i class="fa fa-shopping-cart"></i></a>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="space40">&nbsp;</div>
+                <div class="woocommerce-tabs">
+                    <ul class="tabs">
+                        <li><a href="#tab-description">Description</a></li>
+                        <li><a href="#tab-reviews">Reviews (0)</a></li>
+                    </ul>
+
+                    <div class="panel" id="tab-description">
+                        <p>@ViewBag.pro.description_pr</p>
+                    </div>
+                    <div class="panel" id="tab-reviews">
+                        <p>No Reviews</p>
+                    </div>
+                </div>
+                <div class="space50">&nbsp;</div>
+                <div class="beta-products-list">
+                    <h4>Sản phẩm tương tự</h4>
+
+                    <div class="row">
+                        @foreach (var item in ViewBag.loaisp)
+                        {
+                            if (item.id_type == ViewBag.pro.id_type)
+                            {
+                                <div class="col-sm-4">
+                                    <div class="single-item">
+                                        <div class="single-item-header">
+                                            <a href="@Url.Action("DetailProduct","Home",new { id = item.id })"><img src="~/assets/image/product/@item.images" alt="" height="250px"></a>
+                                        </div>
+                                        <div class="single-item-body">
+                                            <p class="single-item-title">@item.name_pr</p>
+                                            <p class="single-item-price">
+                                                @if (@item.promotion_price != 0)
+                                                {
+                                                <span class="flash-del">@item.unit_price đồng</span>
+                                                <span class="flash-sale">@item.promotion_price đồng</span>
+                                                }
+                                                else
+                                                {
+                                                <span>@item.unit_price đồng</span>
+                                                }
+                                            </p>
+                                        </div>
+                                        <div class="single-item-caption">
+                                            <a class="add-to-cart pull-left" href="/ShoppingCart/AddtoCart/@item.id"><i class="fa fa-shopping-cart"></i></a>
+                                            <a class="beta-btn primary" href="@Url.Action("DetailProduct","Home",new { id = item.id })">Details<i class="fa fa-chevron-right"></i></a>
+                                            <div class="clearfix"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            }
+                        }
+                    </div>
+                    @Html.PagedListPager((PagedList.IPagedList)ViewBag.loaisp, page => Url.Action("DetailProduct", new { page }));
+                </div> <!-- .beta-products-list -->
+            </div>
+            <div class="col-sm-3 aside">
+                <div class="widget">
+                    <h3 class="widget-title">Sản Phẩm Mới</h3>
+                    <div class="widget-body">
+                        <div class="beta-sales beta-lists">
+                            @foreach (var new_pr in ViewBag.new_pr)
+                            {
+                                <div class="media beta-sales-item">
+                                    <a class="pull-left" href="@Url.Action("DetailProduct","Home",new { id = new_pr.id })"><img src="~/assets/image/product/@new_pr.images" alt="" height="250px"></a>
+                                    <div class="media-body">
+                                        @new_pr.name_pr<br />
+                                        <span>@new_pr.unit_price đồng</span>
+                                    </div>
+                                </div>
+                            }
+                        </div>
+
+                    </div>
+                </div> <!-- best sellers widget -->
+                @Html.PagedListPager((PagedList.IPagedList)ViewBag.new_pr, page => Url.Action("DetailProduct", new { page }));
+
+                <div class="widget">
+                    <h3 class="widget-title">Sản Phẩm Khuyến Mãi</h3>
+                    <div class="widget-body">
+                        <div class="beta-sales beta-lists">
+                            @foreach (var pro_pr in ViewBag.pro_pr)
+                            {
+                                <div class="media beta-sales-item">
+                                    <a class="pull-left" href="@Url.Action("DetailProduct","Home",new { id = pro_pr.id })"><img src="~/assets/image/product/@pro_pr.images" alt=""></a>
+                                    <div class="media-body">
+                                        @pro_pr.name_pr<br />
+                                        @if (pro_pr.promotion_price != 0)
+                                        {
+                                            <span class="flash-del">@pro_pr.unit_price đồng</span><br />
+                                            <span class="flash-sale">@pro_pr.promotion_price đồng</span>
+                                        }
+                                        else
+                                        {
+                                            <span>@pro_pr.unit_price đồng</span>
+                                        }
+                                    </div>
+                                </div>
+                            }
+                        </div>
+                    </div>
+                </div> <!-- best sellers widget -->
+                @Html.PagedListPager((PagedList.IPagedList)ViewBag.pro_pr, page => Url.Action("DetailProduct", new { page }));
+            </div>
+        </div>
+    </div> <!-- #content -->
+</div> <!-- .container -->

@@ -1,0 +1,57 @@
+D:\HỌC TẬP\KÌ 2 NĂM 3\Công Nghệ Web\WebsiteBanHang\DatabaseIO\bin\Debug\DatabaseIO.dll.config
+D:\HỌC TẬP\KÌ 2 NĂM 3\Công Nghệ Web\WebsiteBanHang\DatabaseIO\bin\Debug\DatabaseIO.dll
+D:\HỌC TẬP\KÌ 2 NĂM 3\Công Nghệ Web\WebsiteBanHang\DatabaseIO\bin\Debug\DatabaseIO.pdb
+D:\HỌC TẬP\KÌ 2 NĂM 3\Công Nghệ Web\WebsiteBanHang\DatabaseIO\bin\Debug\DbWebsite.dll
+D:\HỌC TẬP\KÌ 2 NĂM 3\Công Nghệ Web\WebsiteBanHang\DatabaseIO\bin\Debug\EntityFramework.dll
+D:\HỌC TẬP\KÌ 2 NĂM 3\Công Nghệ Web\WebsiteBanHang\DatabaseIO\bin\Debug\EntityFramework.SqlServer.dll
+D:\HỌC TẬP\KÌ 2 NĂM 3\Công Nghệ Web\WebsiteBanHang\DatabaseIO\bin\Debug\DbWebsite.pdb
+D:\HỌC TẬP\KÌ 2 NĂM 3\Công Nghệ Web\WebsiteBanHang\DatabaseIO\bin\Debug\DbWebsite.dll.config
+D:\HỌC TẬP\KÌ 2 NĂM 3\Công Nghệ Web\WebsiteBanHang\DatabaseIO\bin\Debug\EntityFramework.xml
+D:\HỌC TẬP\KÌ 2 NĂM 3\Công Nghệ Web\WebsiteBanHang\DatabaseIO\bin\Debug\EntityFramework.SqlServer.xml
+D:\HỌC TẬP\KÌ 2 NĂM 3\Công Nghệ Web\WebsiteBanHang\DatabaseIO\obj\Debug\DatabaseIO.csprojAssemblyReference.cache
+D:\HỌC TẬP\KÌ 2 NĂM 3\Công Nghệ Web\WebsiteBanHang\DatabaseIO\obj\Debug\DatabaseIO.csproj.CoreCompileInputs.cache
+D:\HỌC TẬP\KÌ 2 NĂM 3\Công Nghệ Web\WebsiteBanHang\DatabaseIO\obj\Debug\DatabaseIO.csproj.CopyComplete
+D:\HỌC TẬP\KÌ 2 NĂM 3\Công Nghệ Web\WebsiteBanHang\DatabaseIO\obj\Debug\DatabaseIO.dll
+D:\HỌC TẬP\KÌ 2 NĂM 3\Công Nghệ Web\WebsiteBanHang\DatabaseIO\obj\Debug\DatabaseIO.pdb
+D:\HỌC TẬP\KÌ 2 NĂM 3\Công Nghệ Web\WebsiteBanHang\DatabaseIO\bin\Debug\PagedList.dll
+D:\HỌC TẬP\KÌ 2 NĂM 3\Công Nghệ Web\WebsiteBanHang\DatabaseIO\bin\Debug\PagedList.Mvc.dll
+D:\HỌC TẬP\KÌ 2 NĂM 3\Công Nghệ Web\WebsiteBanHang\DatabaseIO\bin\Debug\PagedList.xml
+D:\HỌC TẬP\KÌ 2 NĂM 3\Công Nghệ Web\WebsiteBanHang\DatabaseIO\bin\Debug\PagedList.Mvc.xml
+C:\Users\Hp\Desktop\New folder\ThucTapNhom\WevSite Bán Bánh Ngọt\DatabaseIO\bin\Debug\DatabaseIO.dll.config
+C:\Users\Hp\Desktop\New folder\ThucTapNhom\WevSite Bán Bánh Ngọt\DatabaseIO\bin\Debug\DatabaseIO.dll
+C:\Users\Hp\Desktop\New folder\ThucTapNhom\WevSite Bán Bánh Ngọt\DatabaseIO\bin\Debug\DatabaseIO.pdb
+C:\Users\Hp\Desktop\New folder\ThucTapNhom\WevSite Bán Bánh Ngọt\DatabaseIO\bin\Debug\DbWebsite.dll
+C:\Users\Hp\Desktop\New folder\ThucTapNhom\WevSite Bán Bánh Ngọt\DatabaseIO\bin\Debug\EntityFramework.dll
+C:\Users\Hp\Desktop\New folder\ThucTapNhom\WevSite Bán Bánh Ngọt\DatabaseIO\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Hp\Desktop\New folder\ThucTapNhom\WevSite Bán Bánh Ngọt\DatabaseIO\bin\Debug\PagedList.dll
+C:\Users\Hp\Desktop\New folder\ThucTapNhom\WevSite Bán Bánh Ngọt\DatabaseIO\bin\Debug\PagedList.Mvc.dll
+C:\Users\Hp\Desktop\New folder\ThucTapNhom\WevSite Bán Bánh Ngọt\DatabaseIO\bin\Debug\DbWebsite.pdb
+C:\Users\Hp\Desktop\New folder\ThucTapNhom\WevSite Bán Bánh Ngọt\DatabaseIO\bin\Debug\DbWebsite.dll.config
+C:\Users\Hp\Desktop\New folder\ThucTapNhom\WevSite Bán Bánh Ngọt\DatabaseIO\bin\Debug\EntityFramework.xml
+C:\Users\Hp\Desktop\New folder\ThucTapNhom\WevSite Bán Bánh Ngọt\DatabaseIO\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Hp\Desktop\New folder\ThucTapNhom\WevSite Bán Bánh Ngọt\DatabaseIO\bin\Debug\PagedList.xml
+C:\Users\Hp\Desktop\New folder\ThucTapNhom\WevSite Bán Bánh Ngọt\DatabaseIO\bin\Debug\PagedList.Mvc.xml
+C:\Users\Hp\Desktop\New folder\ThucTapNhom\WevSite Bán Bánh Ngọt\DatabaseIO\obj\Debug\DatabaseIO.csprojAssemblyReference.cache
+C:\Users\Hp\Desktop\New folder\ThucTapNhom\WevSite Bán Bánh Ngọt\DatabaseIO\obj\Debug\DatabaseIO.csproj.CoreCompileInputs.cache
+C:\Users\Hp\Desktop\New folder\ThucTapNhom\WevSite Bán Bánh Ngọt\DatabaseIO\obj\Debug\DatabaseIO.csproj.CopyComplete
+C:\Users\Hp\Desktop\New folder\ThucTapNhom\WevSite Bán Bánh Ngọt\DatabaseIO\obj\Debug\DatabaseIO.dll
+C:\Users\Hp\Desktop\New folder\ThucTapNhom\WevSite Bán Bánh Ngọt\DatabaseIO\obj\Debug\DatabaseIO.pdb
+D:\HỌC TẬP\KÌ 2 NĂM 3\Công Nghệ Web\WevSite Bán Bánh Ngọt\DatabaseIO\bin\Debug\DatabaseIO.dll.config
+D:\HỌC TẬP\KÌ 2 NĂM 3\Công Nghệ Web\WevSite Bán Bánh Ngọt\DatabaseIO\bin\Debug\DatabaseIO.dll
+D:\HỌC TẬP\KÌ 2 NĂM 3\Công Nghệ Web\WevSite Bán Bánh Ngọt\DatabaseIO\bin\Debug\DatabaseIO.pdb
+D:\HỌC TẬP\KÌ 2 NĂM 3\Công Nghệ Web\WevSite Bán Bánh Ngọt\DatabaseIO\bin\Debug\DbWebsite.dll
+D:\HỌC TẬP\KÌ 2 NĂM 3\Công Nghệ Web\WevSite Bán Bánh Ngọt\DatabaseIO\bin\Debug\EntityFramework.dll
+D:\HỌC TẬP\KÌ 2 NĂM 3\Công Nghệ Web\WevSite Bán Bánh Ngọt\DatabaseIO\bin\Debug\EntityFramework.SqlServer.dll
+D:\HỌC TẬP\KÌ 2 NĂM 3\Công Nghệ Web\WevSite Bán Bánh Ngọt\DatabaseIO\bin\Debug\PagedList.dll
+D:\HỌC TẬP\KÌ 2 NĂM 3\Công Nghệ Web\WevSite Bán Bánh Ngọt\DatabaseIO\bin\Debug\PagedList.Mvc.dll
+D:\HỌC TẬP\KÌ 2 NĂM 3\Công Nghệ Web\WevSite Bán Bánh Ngọt\DatabaseIO\bin\Debug\DbWebsite.pdb
+D:\HỌC TẬP\KÌ 2 NĂM 3\Công Nghệ Web\WevSite Bán Bánh Ngọt\DatabaseIO\bin\Debug\DbWebsite.dll.config
+D:\HỌC TẬP\KÌ 2 NĂM 3\Công Nghệ Web\WevSite Bán Bánh Ngọt\DatabaseIO\bin\Debug\EntityFramework.xml
+D:\HỌC TẬP\KÌ 2 NĂM 3\Công Nghệ Web\WevSite Bán Bánh Ngọt\DatabaseIO\bin\Debug\EntityFramework.SqlServer.xml
+D:\HỌC TẬP\KÌ 2 NĂM 3\Công Nghệ Web\WevSite Bán Bánh Ngọt\DatabaseIO\bin\Debug\PagedList.xml
+D:\HỌC TẬP\KÌ 2 NĂM 3\Công Nghệ Web\WevSite Bán Bánh Ngọt\DatabaseIO\bin\Debug\PagedList.Mvc.xml
+D:\HỌC TẬP\KÌ 2 NĂM 3\Công Nghệ Web\WevSite Bán Bánh Ngọt\DatabaseIO\obj\Debug\DatabaseIO.csprojAssemblyReference.cache
+D:\HỌC TẬP\KÌ 2 NĂM 3\Công Nghệ Web\WevSite Bán Bánh Ngọt\DatabaseIO\obj\Debug\DatabaseIO.csproj.CoreCompileInputs.cache
+D:\HỌC TẬP\KÌ 2 NĂM 3\Công Nghệ Web\WevSite Bán Bánh Ngọt\DatabaseIO\obj\Debug\DatabaseIO.csproj.CopyComplete
+D:\HỌC TẬP\KÌ 2 NĂM 3\Công Nghệ Web\WevSite Bán Bánh Ngọt\DatabaseIO\obj\Debug\DatabaseIO.dll
+D:\HỌC TẬP\KÌ 2 NĂM 3\Công Nghệ Web\WevSite Bán Bánh Ngọt\DatabaseIO\obj\Debug\DatabaseIO.pdb

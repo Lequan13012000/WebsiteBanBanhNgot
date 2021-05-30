@@ -1,0 +1,120 @@
+﻿
+@{
+    ViewBag.Title = "Product";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+}
+
+
+<div class="container">
+    <div id="content" class="space-top-none">
+        <div class="main-content">
+            <div class="space60">&nbsp;</div>
+            <div class="row">
+                <div class="col-sm-3">
+                    <ul class="aside-menu">
+                        <li> @Html.ActionLink("Bánh Mặn", "Product", new { id = 1 })</li>
+                        <li> @Html.ActionLink("Bánh Ngọt", "Product", new { id = 2 })</li>
+                        <li> @Html.ActionLink("Bánh Trái Cây", "Product", new { id = 3 })</li>
+                        <li> @Html.ActionLink("Bánh Kem", "Product", new { id = 4 })</li>
+                        <li> @Html.ActionLink("Bánh Crepe", "Product", new { id = 5 })</li>
+                        <li> @Html.ActionLink("Bánh Pizza", "Product", new { id = 6 })</li>
+                        <li> @Html.ActionLink("Bánh Su Kem", "Product", new { id = 7 })</li>
+                    </ul>
+                </div>
+                <div class="col-sm-9">
+                    <div class="beta-products-list">
+                        <h4>Sản Phẩm Theo Loại</h4>
+                        <div class="beta-products-details">
+                            <p class="pull-left">438 styles found</p>
+                            <div class="clearfix"></div>
+                        </div>
+
+                        <div class="row">
+                            @foreach (var item in ViewBag.loaisp)
+                            {
+                                <div class="col-sm-4">
+                                    <div class="single-item">
+                                        <div class="single-item-header">
+                                            <a href="@Url.Action("DetailProduct","Home",new { id = item.id })"><img src="~/assets/image/product/@item.images" alt="" height="250px"></a>
+                                        </div>
+                                        <div class="single-item-body">
+                                            <p class="single-item-title">@item.name_pr</p>
+                                            <p class="single-item-price">
+                                                @if(@item.promotion_price != 0)
+                                                {
+                                                <span class="flash-del">@item.unit_price đồng</span>
+                                                <span class="flash-sale">@item.promotion_price đồng</span>
+                                                }
+                                               else
+                                                {
+                                                 <span>@item.unit_price đồng</span>
+                                                }
+                                           </p>
+                                        </div>
+                                        <div class="single-item-caption">
+                                            <a class="add-to-cart pull-left" href="/ShoppingCart/AddtoCart/@item.id"><i class="fa fa-shopping-cart"></i></a>
+                                            <a class="beta-btn primary" href="@Url.Action("DetailProduct","Home",new { id = item.id })">Chi tiết <i class="fa fa-chevron-right"></i></a>
+                                            <div class="clearfix"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            }
+
+                        </div>
+                    </div>
+
+                    <div class="space50">&nbsp;</div>
+
+                    <div class="beta-products-list">
+                        <h4>Sản Phẩm Khác</h4>
+                        <div class="beta-products-details">
+                            <p class="pull-left">438 styles found</p>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="row">
+                            @foreach (var item in ViewBag.spkhac)
+                            {
+                                <div class="col-sm-4">
+                                    <div class="single-item">
+                                        <div class="single-item-header">
+                                            <br />
+                                            <a href="@Url.Action("DetailProduct","Home",new { id = item.id })"><img src="~/assets/image/product/@item.images" alt="" height="250px"></a>
+                                        </div>
+                                        <div class="single-item-body">
+                                            <p class="single-item-title">@item.name_pr</p>
+                                            <p class="single-item-price">
+                                                @if (@item.promotion_price != 0)
+                                                {
+                                                    <span class="flash-del">@item.unit_price đồng</span>
+                                                    <span class="flash-sale">@item.promotion_price đồng</span>
+                                                }
+                                                else
+                                                {
+                                                    <span>@item.unit_price đồng</span>
+                                                }
+                                            </p>
+                                        </div>
+                                        <div class="single-item-caption">
+                                            <a class="add-to-cart pull-left" href="/ShoppingCart/AddtoCart/@item.id"><i class="fa fa-shopping-cart"></i></a>
+                                            <a class="beta-btn primary" href="@Url.Action("DetailProduct","Home",new { id = item.id })">Chi tiết <i class="fa fa-chevron-right"></i></a><br />
+                                            <div class="clearfix"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            }
+
+
+                        </div>
+                        <div class="space40">&nbsp;</div>
+
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</div>
+
+
+

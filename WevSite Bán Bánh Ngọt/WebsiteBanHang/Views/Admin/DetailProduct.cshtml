@@ -1,0 +1,100 @@
+﻿@model DbWebsite.products
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div style="margin-left:283px; margin-top:-50px">
+    <h1>Detail</h1>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.type_products.name_typepr)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.type_products.name_typepr)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.name_pr)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.name_pr)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.description_pr)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.description_pr)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.unit_price)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.unit_price)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.promotion_price)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.promotion_price)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.images)
+        </dt>
+
+        <dd>
+            <img src="~/assets/image/product/@Html.DisplayFor(model => model.images)" alt="" height="100px" width="130px">
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.unit)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.unit)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.new_pr)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.new_pr)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.created_at)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.created_at)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.updated_at)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.updated_at)
+        </dd>
+        <br />
+        <p>
+            @Html.ActionLink("Edit", "EditProduct", new { id = Model.id }) |
+            @Html.ActionLink("Back to List", "ListProduct")
+        </p>
+    </dl>
+</div>
+

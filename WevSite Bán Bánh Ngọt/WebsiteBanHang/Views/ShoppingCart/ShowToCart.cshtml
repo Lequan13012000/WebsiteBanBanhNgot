@@ -1,0 +1,107 @@
+﻿@model DbWebsite.Cart
+
+@{
+    ViewBag.Title = "ShowToCart";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+}
+<style>
+    input {
+        
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        box-sizing: border-box;
+    }
+
+</style>
+<div class="container">
+    <br />
+    <h3>Đơn hàng của bạn</h3><br />
+
+    @if (Model != null)
+    {
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Product Name</th>
+                    <th>Image</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Sum</th>
+                    <th>Delete</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.Items)
+                {
+                    double total = item._shopping_product.unit_price.Value * item._shopping_quantity;
+                    <tr>
+                        <td>@Html.DisplayFor(model => item._shopping_product.name_pr) </td>
+                        <td><img src="~/assets/image/product/@Html.DisplayFor(model => item._shopping_product.images)" alt="" height="100px" width="130px"></td>
+                        <td>@Html.DisplayFor(model => item._shopping_product.unit_price) </td>
+                        <td>
+                            @using (Html.BeginForm("Update_Quantity_Cart", "ShoppingCart"))
+                            {
+                                <input type="hidden" value="@item._shopping_product.id" name="ID_Product" />
+                                <input style="" type="number" value="@item._shopping_quantity" name="Quantity" />
+                                <input type="submit" value="Update Quantity" />
+                            }
+
+                        </td>
+                        <td>Total :@total </td>
+                        <td>
+                            <a href="/ShoppingCart/Remove_Cart/@item._shopping_product.id">Remove</a>
+                        </td>
+                    </tr>
+                }
+                <tr>
+                    <td colspan="6" style="text-align:right"><p style="margin-right:113px">Sum Total: @Model.Total_Money()</p></td>
+                </tr>
+            </tbody>
+        </table>
+        <div>
+            <h3> Thông tin của bạn </h3><br />
+            <div style=" text-align: end; margin-top: -44px; margin-bottom: 15px;">
+					<a href="@Url.Action("Home","Home")">Trang chủ</a> / <span>Đặt hàng</span>
+			</div>
+                                        <div style=" display: flex; justify-content: center;background: skyblue;border-radius: 20px;margin-bottom:20px">
+                                            <div style=" margin-top: 20px; margin-bottom: 20px;">
+                                                @using (Html.BeginForm("CheckOut", "ShoppingCart"))
+                                                {
+                                                    <lable>Name Customer: </lable>
+                                                    <input type="text" name="name" placeholder="Họ tên" required /><br />
+
+                                                    <lable>Gender Customer: </lable><br />
+                                                    <input id="gender" type="radio" class="input-radio" name="gender" value="nam" checked="checked" style="width: 10%"><span style="margin-right: 10%">Nam</span>
+                                                    <input id="gender" type="radio" class="input-radio" name="gender" value="nữ" style="width: 10%"><span>Nữ</span><br />
+
+                                                    <lable>Email Customer: </lable>
+                                                    <input type="email" name="email" placeholder="expample@gmail.com" required /><br />
+
+                                                    <lable>Address Customer: </lable>
+                                                    <input type="text" name="address" placeholder="Street Address" required /><br />
+
+                                                    <lable>Phone Customer: </lable>
+                                                    <input type="text" name="phone" required /><br />
+
+                                                    <lable>Note Customer: </lable>
+                                                    <input type="text" name="note_cus" required /><br />
+
+                                                    <lable>Note :</lable><br />
+                                                    <input type="text" name="note_bill" required></input>
+
+                                                    <lable>
+                                                        <br />
+                                                        <input type="submit" value="Đặt Hàng" class="btn btn-success" />
+                                                    </lable>
+                                                }
+                                            </div>
+                                        </div>
+                       
+       </div>     
+    }
+</div>
+
+

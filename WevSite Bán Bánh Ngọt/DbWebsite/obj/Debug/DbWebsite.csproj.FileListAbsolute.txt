@@ -1,0 +1,36 @@
+D:\HỌC TẬP\KÌ 2 NĂM 3\Công Nghệ Web\WebsiteBanHang\DbWebsite\bin\Debug\DbWebsite.dll.config
+D:\HỌC TẬP\KÌ 2 NĂM 3\Công Nghệ Web\WebsiteBanHang\DbWebsite\bin\Debug\DbWebsite.dll
+D:\HỌC TẬP\KÌ 2 NĂM 3\Công Nghệ Web\WebsiteBanHang\DbWebsite\bin\Debug\DbWebsite.pdb
+D:\HỌC TẬP\KÌ 2 NĂM 3\Công Nghệ Web\WebsiteBanHang\DbWebsite\bin\Debug\EntityFramework.dll
+D:\HỌC TẬP\KÌ 2 NĂM 3\Công Nghệ Web\WebsiteBanHang\DbWebsite\bin\Debug\EntityFramework.SqlServer.dll
+D:\HỌC TẬP\KÌ 2 NĂM 3\Công Nghệ Web\WebsiteBanHang\DbWebsite\bin\Debug\EntityFramework.xml
+D:\HỌC TẬP\KÌ 2 NĂM 3\Công Nghệ Web\WebsiteBanHang\DbWebsite\bin\Debug\EntityFramework.SqlServer.xml
+D:\HỌC TẬP\KÌ 2 NĂM 3\Công Nghệ Web\WebsiteBanHang\DbWebsite\obj\Debug\DbWebsite.csproj.CoreCompileInputs.cache
+D:\HỌC TẬP\KÌ 2 NĂM 3\Công Nghệ Web\WebsiteBanHang\DbWebsite\obj\Debug\DbWebsite.csproj.CopyComplete
+D:\HỌC TẬP\KÌ 2 NĂM 3\Công Nghệ Web\WebsiteBanHang\DbWebsite\obj\Debug\DbWebsite.dll
+D:\HỌC TẬP\KÌ 2 NĂM 3\Công Nghệ Web\WebsiteBanHang\DbWebsite\obj\Debug\DbWebsite.pdb
+D:\HỌC TẬP\KÌ 2 NĂM 3\Công Nghệ Web\WebsiteBanHang\DbWebsite\obj\Debug\DbWebsite.csprojAssemblyReference.cache
+C:\Users\Hp\Desktop\New folder\ThucTapNhom\WevSite Bán Bánh Ngọt\DbWebsite\bin\Debug\DbWebsite.dll.config
+C:\Users\Hp\Desktop\New folder\ThucTapNhom\WevSite Bán Bánh Ngọt\DbWebsite\bin\Debug\DbWebsite.dll
+C:\Users\Hp\Desktop\New folder\ThucTapNhom\WevSite Bán Bánh Ngọt\DbWebsite\bin\Debug\DbWebsite.pdb
+C:\Users\Hp\Desktop\New folder\ThucTapNhom\WevSite Bán Bánh Ngọt\DbWebsite\bin\Debug\EntityFramework.dll
+C:\Users\Hp\Desktop\New folder\ThucTapNhom\WevSite Bán Bánh Ngọt\DbWebsite\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Hp\Desktop\New folder\ThucTapNhom\WevSite Bán Bánh Ngọt\DbWebsite\bin\Debug\EntityFramework.xml
+C:\Users\Hp\Desktop\New folder\ThucTapNhom\WevSite Bán Bánh Ngọt\DbWebsite\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Hp\Desktop\New folder\ThucTapNhom\WevSite Bán Bánh Ngọt\DbWebsite\obj\Debug\DbWebsite.csprojAssemblyReference.cache
+C:\Users\Hp\Desktop\New folder\ThucTapNhom\WevSite Bán Bánh Ngọt\DbWebsite\obj\Debug\DbWebsite.csproj.CoreCompileInputs.cache
+C:\Users\Hp\Desktop\New folder\ThucTapNhom\WevSite Bán Bánh Ngọt\DbWebsite\obj\Debug\DbWebsite.csproj.CopyComplete
+C:\Users\Hp\Desktop\New folder\ThucTapNhom\WevSite Bán Bánh Ngọt\DbWebsite\obj\Debug\DbWebsite.dll
+C:\Users\Hp\Desktop\New folder\ThucTapNhom\WevSite Bán Bánh Ngọt\DbWebsite\obj\Debug\DbWebsite.pdb
+D:\HỌC TẬP\KÌ 2 NĂM 3\Công Nghệ Web\WevSite Bán Bánh Ngọt\DbWebsite\bin\Debug\DbWebsite.dll.config
+D:\HỌC TẬP\KÌ 2 NĂM 3\Công Nghệ Web\WevSite Bán Bánh Ngọt\DbWebsite\bin\Debug\DbWebsite.dll
+D:\HỌC TẬP\KÌ 2 NĂM 3\Công Nghệ Web\WevSite Bán Bánh Ngọt\DbWebsite\bin\Debug\DbWebsite.pdb
+D:\HỌC TẬP\KÌ 2 NĂM 3\Công Nghệ Web\WevSite Bán Bánh Ngọt\DbWebsite\bin\Debug\EntityFramework.dll
+D:\HỌC TẬP\KÌ 2 NĂM 3\Công Nghệ Web\WevSite Bán Bánh Ngọt\DbWebsite\bin\Debug\EntityFramework.SqlServer.dll
+D:\HỌC TẬP\KÌ 2 NĂM 3\Công Nghệ Web\WevSite Bán Bánh Ngọt\DbWebsite\bin\Debug\EntityFramework.xml
+D:\HỌC TẬP\KÌ 2 NĂM 3\Công Nghệ Web\WevSite Bán Bánh Ngọt\DbWebsite\bin\Debug\EntityFramework.SqlServer.xml
+D:\HỌC TẬP\KÌ 2 NĂM 3\Công Nghệ Web\WevSite Bán Bánh Ngọt\DbWebsite\obj\Debug\DbWebsite.csprojAssemblyReference.cache
+D:\HỌC TẬP\KÌ 2 NĂM 3\Công Nghệ Web\WevSite Bán Bánh Ngọt\DbWebsite\obj\Debug\DbWebsite.csproj.CoreCompileInputs.cache
+D:\HỌC TẬP\KÌ 2 NĂM 3\Công Nghệ Web\WevSite Bán Bánh Ngọt\DbWebsite\obj\Debug\DbWebsite.csproj.CopyComplete
+D:\HỌC TẬP\KÌ 2 NĂM 3\Công Nghệ Web\WevSite Bán Bánh Ngọt\DbWebsite\obj\Debug\DbWebsite.dll
+D:\HỌC TẬP\KÌ 2 NĂM 3\Công Nghệ Web\WevSite Bán Bánh Ngọt\DbWebsite\obj\Debug\DbWebsite.pdb
